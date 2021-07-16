@@ -1,3 +1,4 @@
 class ApplicationController < ActionController::API
-  @polygon = Polygon.find(params[:id])
+  # git pipelines heroku postgres
+  # @polygon = Polygon.find(params[:id])
 end

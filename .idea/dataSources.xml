@@ -10,5 +10,12 @@
       <jdbc-url>jdbc:sqlite:C:\Users\luism\Documents\GitHub\poligonosdemos\poligono_rails\poligonosapp_api\db\development.sqlite3</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="PostgreSQL - postgres@localhost" uuid="48afab2c-f3c4-437e-a37e-16d3472bfca5">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://ec2-52-5-1-20.compute-1.amazonaws.com :5432/d7m1jm4mka9km3</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>

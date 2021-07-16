@@ -27,5 +27,5 @@ jobs:
           uri-secret: ${{secrets.URI}}
         runs:
           using: 'node12'
-          main: 'src/app/tab1/tab1.page.ts'
+          main: 'src/app/views/polygons/index.html'
 
