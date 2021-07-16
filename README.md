@@ -1,6 +1,10 @@
 # README
 
-# poligonosapp postgis rails api
+# poligonosapp postgis rails api 
+
+https://devcenter.heroku.com/articles/build-docker-images-heroku-yml
+
+https://docs.docker.com/samples/rails/
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
