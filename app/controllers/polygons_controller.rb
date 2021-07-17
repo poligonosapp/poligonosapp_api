@@ -1,3 +1,4 @@
+# resources :polygons
 # cannot load such file -- octokit
 # require 'octokit'
 
@@ -17,6 +18,11 @@
 # Sequel.connect(ENV['DATABASE_URL'] || 'postgres://localhost/mydb')
 
 class PolygonsController < ApplicationController
+
+    def index
+        # @polygons = Polygon.all
+    end
+
     # Provide authentication credentials
     # client = Octokit::Client.new(:access_token => 'repo-token')
 
