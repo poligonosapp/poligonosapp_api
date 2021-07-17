@@ -17,6 +17,13 @@ pipelines:
          - npm run test:ci
          - npm run e2e:ci
          - npm run build:prod
+         - pipe: atlassian/heroku-deploy:1.2.1
+           variables:
+             HEROKU_API_KEY: 'A'
+             HEROKU_APP_NAME: 'poligonosapp-api'
+             ZIP_FILE: '<string>'
+             # WAIT: '<boolean>' # Optional.
+             # DEBUG: '<boolean>' # Optional
          - pipe: atlassian/firebase-deploy:0.3.0
            variables:
              FIREBASE_TOKEN: '$FIREBASE_TOKEN_CI'

@@ -8,11 +8,12 @@
 # require 'sinatra'
 # require 'ramaze'
 # require 'active_record'
-require 'data_mapper'
+# cannot load such file -- data_mapper
+# require 'data_mapper'
 # DataMapper.setup(:default, ENV['DATABASE_URL'] || 'postgres://localhost/mydb')
 # For Sequel:
-
-require 'sequel'
+# cannot load such file -- sequel
+# require 'sequel'
 # Sequel.connect(ENV['DATABASE_URL'] || 'postgres://localhost/mydb')
 
 class PolygonsController < ApplicationController
@@ -30,5 +31,9 @@ class PolygonsController < ApplicationController
     # data = File.read(Rails.root + "tmp/polygons.geojson")
     # Document.create payload: data
 
+    # The action 'show' could not be found for PolygonsController
+    # show() do
+
+    # end
 
 end
